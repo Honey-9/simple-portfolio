@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.imgIM {
+  float: right;
+  border-radius: 50%;
+  width: 450px; /* width of image (px or % or auto) */
+  height: auto;
+}
+
+.icon {
+  font-size: 40px;
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: 0.5s;
+}
+header.sticky {
+  background: #fff;
+  padding: 20px 100px;
+  box-shadow: 0 5px 20px #a76652;
+}
+header .logo {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+header.sticky .logo {
+  color: #a76652;
+}
+header ul {
+  position: relative;
+  display: flex;
+}
+header ul li {
+  position: relative;
+  list-style: none;
+}
+header ul li a {
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+header.sticky ul li a {
+  color: #a76652;
+}
+section {
+  padding: 100px;
+}
+.banner {
+  position: relative;
+  min-height: 100vh;
+  background: #a76652;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner h2 {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+.banner h2 span {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.banner h3 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.btn {
+  position: relative;
+  background: #d1775d;
+  opacity: 0.9;
+  display: inline-block;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.btn:hover{
+  background: #d6b0a5;
+  font: #d499a9;
+
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #a76652;
+}
+.heading.white {
+  color: #fff;
+}
+.conetntBx {
+  padding-left: 176px;
+}
+.conetntBx h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.heading h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.w50 {
+  min-width: 40%;
+}
+img {
+  max-width: 100%;
+}
