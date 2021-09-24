@@ -142,3 +142,16 @@ section {
 img {
   max-width: 100%;
 }
+
+.services {
+  background: #a76652;
+}
+.services .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+
