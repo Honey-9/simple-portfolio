@@ -392,6 +392,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: center;
   margin-right: -15px;
   margin-left: -15px;
 }
